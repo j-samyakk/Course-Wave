@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title -->
+    <title>Course Wave</title>
+
+    <!-- BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/imgMain/Logo/png/logo-no-background.png" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&family=Staatliches&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="header">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md z-3">
+            <a href="#" class="navbar-brand d-lg-block d-md-block d-none ms-5">
+                <img src="assets/imgMain/Logo/png/logo-no-background.png" alt="logo.png" class="img-fluid">
+            </a>
+
+            <a href="#" class="navbar-brand d-lg-none d-md-none m-3">
+                <h1>Course Wave</h1>
+            </a>
+
+            <button class="navbar-toggler navbar-dark " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarTogglerDemo01">
+                <div class="ms-lg-auto ms-md-auto text-center ">
+                    <ul class="navbar-nav me-lg-2 pe-lg-2 ">
+                        <li class="nav-item mx-2 my-lg-0 my-md-0 my-2"><a href="#header" class="nav-link">HOME</a></li>
+                        <li class="nav-item mx-2 my-lg-0 my-md-0 my-2"><a href="#why-us" class="nav-link">WHY US ?</a>
+                        </li>
+                        <li class="nav-item mx-2 my-lg-0 my-md-0 my-2"><a href="#courses" class="nav-link">COURSES</a>
+                        </li>
+                        <li class="nav-item mx-2 my-lg-0 my-md-0 my-2"><a href="#team" class="nav-link">TEAM</a></li>
+                        <li class="nav-item mx-2 my-lg-0 my-md-0 my-2"><a href="#contact-us"
+                                class="nav-link">CONTACT</a></li>
+                        <li class="nav-item mx-2 my-lg-0 my-md-0 my-2">
+                            <img src="assets/imgMain/shopping-bag.png" alt="" class="cart-button" id="big-cart-button">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <img src="assets/imgMain/shopping-bag white.png" alt="" class="cart-button position-fixed bottom-0 end-0 bg-dark rounded-5 m-3 p-1" id="small-cart-button">
+
+        <!-- Add to cart -->
+        <div class="container position-fixed top-0 cart-page" id="cart">
+            <div class="row">
+                <div class="col">
+                    <div
+                        class="cart-header d-flex justify-content-between align-items-center p-4 border border-dark border-top-0 border-end-0 border-start-0 ">
+                        <span class="fs-3">ADD TO CART</span>
+                        <img src="assets/imgMain/close black.png" alt="" class="ms-auto d-block cart-close">
+                    </div>
+
+                    <div class="cart-items border border-dark border-top-0 border-end-0 border-start-0 border-1">
+
+                    </div>
+
+                    <div class="footerCart">
+                        <div class="total-amount text-end p-3">
+                        <span class="mx-3 fw-bold total-amount">Total:- ₹0</span>
+                    </div>
+                        <button class="btn mx-auto py-3 px-5 rounded-5 fs-5 button-main d-block">Purchase!</button>
+                    </div>
+
+                </div >
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Home Page -->
+    <div class="container-fluid position-absolute top-50 start-50 translate-middle" id="home-page">
+        <div class="row text-light text-center ">
+            <i class="fst-italic">Learn Something New !</i>
+            <h1 class="fw-bold">Personalised Content for You</h1>
+            <button class="btn w-auto mx-auto py-3 px-5 rounded-5 fs-5 button-main">Start Now !</button>
+        </div>
+    </div>
+
+    </div>
+
+    <!-- Why Us -->
+    <div class="container-fluid" id="why-us">
+        <div class="row px-5 pb-5">
+            <h1 class="text-center my-5 secondHeading">WHY US ?</h1>
+
+            <div class="col-12 col-lg-4 col-md-4 text-center">
+                <img src="assets/imgMain/dollar.png" alt="dollar-bill">
+                <h2 class="mt-2 mb-4 fw-bold">Affordable Price</h2>
+                <p class="text-body-secondary">We understand the importance of accessible education, and that's why we
+                    strive to keep our prices affordable.</p>
+            </div>
+
+            <div class="col-12 col-lg-4 col-md-4 text-center">
+                <img src="assets/imgMain/own-pace.png" alt="own-pace">
+                <h2 class="mt-2 mb-4 fw-bold">Own Pace</h2>
+                <p class="text-body-secondary">We provide a flexible learning environment that allows you to progress
+                    through the course material at your own speed.</p>
+            </div>
+
+            <div class="col-12 col-lg-4 col-md-4 text-center">
+                <img src="assets/imgMain/high-quality.png" alt="high-quality">
+                <h2 class="mt-2 mb-4 fw-bold">High Quality</h2>
+                <p class="text-body-secondary"> Our expert instructors design comprehensive and engaging content that is
+                    regularly updated to reflect the latest.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Portfolio -->
+    <div class="container-fluid p-5" id="courses">
+        <div class="row text-center">
+            <h1 class="text-center my-5 secondHeading">Courses</h1>
+
+            <div class="col-12 col-lg-4 col-md-6 border my-4 py-3 ">
+                <div id="web-dev" class="pop-up">
+                    <img src="assets/imgMain/Web-Development-Course-Thumbnail.png" alt="web-dev" class="img-fluid">
+                    <div class="image-hover">
+                        <p class="position-absolute top-50 start-50 translate-middle fs-1 text-light">+</p>
+                    </div>
+                    <h2 class="fs-4 pt-4">Full Stack Web Developer</h2>
+                    <h3>₹ 500</h3>
+                </div>
+                <button class="btn w-auto mx-auto py-1 px-5 rounded-5 fs-5 button-main m-0 add-to-cart-button">Add to Cart</button>
+            </div>
+
+            <div class="col-12 col-lg-4 col-md-6 border my-4 py-3">
+                <div id="android-dev" class="pop-up">
+                    <img src="assets/imgMain/android.webp" alt="android-dev" class="img-fuid">
+                    <div class="image-hover">
+                        <p class="position-absolute top-50 start-50 translate-middle fs-1 text-light">+</p>
+                    </div>
+                    <h2 class="fs-4 pt-4">Full Stack Android Developer</h2>
+                    <h3>₹ 600</h3>
+                </div>
+                <button class="btn w-auto mx-auto py-1 px-5 rounded-5 fs-5 button-main m-0 add-to-cart-button">Add to Cart</button>
+            </div>
+
+            <div class="col-12 col-lg-4 col-md-6 border my-4 py-3 ">
+                <div id="digital-marketing" class="pop-up">
+                    <img src="assets/imgMain/digital marekting.webp" alt="digital marekting" class="img-fuid">
+                    <div class="image-hover">
+                        <p class="position-absolute top-50 start-50 translate-middle fs-1 text-light">+</p>
+                    </div>
+                    <h2 class="fs-4 pt-4">Digital Marketing</h2>
+                    <h3>₹ 400</h3>
+                </div>
+                <button class="btn w-auto mx-auto py-1 px-5 rounded-5 fs-5 button-main m-0 add-to-cart-button">Add to Cart</button>
+            </div>
+
+            <div class="col-12 col-lg-4 col-md-6 border my-4 py-3 ">
+                <div id="ethical-hacking" class="pop-up">
+                    <img src="assets/imgMain/ethical hakcking.jpg" alt="ethical hacking" class="img-fuid">
+                    <div class="image-hover">
+                        <p class="position-absolute top-50 start-50 translate-middle fs-1 text-light">+</p>
+                    </div>
+                    <h2 class="fs-4 pt-4">Ethical Hacking</h2>
+                    <h3>₹ 999</h3>
+                </div>
+                <button class="btn w-auto mx-auto py-1 px-5 rounded-5 fs-5 button-main m-0 add-to-cart-button">Add to Cart</button>
+            </div>
+
+            <div class="col-12 col-lg-4 col-md-6 border my-4 py-3 ">
+                <div id="ios-dev" class="pop-up">
+                    <img src="assets/imgMain/ios-dev.png" alt="ios-dev" class="img-fuid">
+                    <div class="image-hover">
+                        <p class="position-absolute top-50 start-50 translate-middle fs-1 text-light">+</p>
+                    </div>
+                    <h2 class="fs-4 pt-4">Full Stack IOS Developer</h2>
+                    <h3>₹ 700</h3>
+                </div>
+                <button class="btn w-auto mx-auto py-1 px-5 rounded-5 fs-5 button-main m-0 add-to-cart-button">Add to Cart</button>
+            </div>
+
+            <div class="col-12 col-lg-4 col-md-6 border my-4 py-3 ">
+                <div id="python-dev" class="pop-up">
+                    <img src="assets/imgMain/python_logo.webp" alt="python" class="img-fuid">
+                    <div class="image-hover">
+                        <p class="position-absolute top-50 start-50 translate-middle fs-1 text-light">+</p>
+                    </div>
+                    <h2 class="fs-4 pt-4">Python Developer</h2>
+                    <h3>₹ 800</h3>
+                </div>
+                <button class="btn w-auto mx-auto py-1 px-5 rounded-5 fs-5 button-main m-0 add-to-cart-button">Add to Cart</button>    
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Portfolio PopUp -->
+    <div class="container" id="courses-pop-up">
+        <div class="row">
+
+            <!-- Web Development -->
+            <div class="col-6 d-none position-fixed bg-light" id="web-dev-popup">
+                <div class="close w-25 ms-auto ">
+                    <img src="assets/imgMain/close.png" alt="close" class="w-25 ms-auto d-block close-button m-3 ">
+                </div>
+                <div class="popup-body text-center">
+                    <h1 class="courses-pop-up-heading">Full Stack Web Developer</h1>
+                    <h2>₹ 500</h2>
+
+                    <img src="assets/imgMain/Web-Development-Course-Thumbnail.png" alt="web-dev" class="">
+                    <p class="w-75 mx-auto">Web development is the process of designing, building, and maintaining
+                        websites. It involves disciplines like web design, programming, content creation, and SEO. By
+                        utilizing HTML, CSS, and JavaScript, web developers create captivating and interactive user
+                        experiences.</p>
+                    <button class="btn w-auto mx-auto py-3 px-5 rounded-2 fs-5 button-main close-button"> &times; Close
+                    </button>
+                </div>
+            </div>
+
+            <!-- Android Development -->
+            <div class="col-6 d-none position-fixed bg-light" id="android-dev-popup">
+                <div class="close w-25 ms-auto ">
+                    <img src="assets/imgMain/close.png" alt="close" class="w-25 ms-auto d-block close-button m-3">
+                </div>
+                <div class="popup-body text-center">
+                    <h1 class="courses-pop-up-heading">Full Stack Android Developer</h1>
+                    <h2>₹ 600</h2>
+
+                    <img src="assets/imgMain/android.webp" alt="android-dev" class="">
+                    <p class="w-75 mx-auto">Android development is the art of crafting, coding, and managing
+                        applications for the Android platform. It encompasses various facets such as user interface
+                        design, programming logic, database integration, and testing. </p>
+                    <button class="btn w-auto mx-auto py-3 px-5 rounded-2 fs-5 button-main close-button"> &times; Close
+                    </button>
+                </div>
+            </div>
+
+
+            <!-- Digital Marketing -->
+            <div class="col-6 d-none position-fixed bg-light" id="digital-marketing-popup">
+                <div class="close w-25 ms-auto ">
+                    <img src="assets/imgMain/close.png" alt="close" class="w-25 ms-auto d-block close-button m-3">
+                </div>
+                <div class="popup-body text-center">
+                    <h1 class="courses-pop-up-heading">Digital Marketing</h1>
+                    <h2>₹ 400</h2>
+
+                    <img src="assets/imgMain/digital marekting.webp" alt="digital-marketing" class="">
+                    <p class="w-75 mx-auto">Digital marketing is the strategic approach to promoting products and
+                        services through digital channels. It encompasses techniques such as social media marketing,
+                        search engine optimization (SEO), content creation, and analytics.</p>
+                    <button class="btn w-auto mx-auto py-3 px-5 rounded-2 fs-5 button-main close-button"> &times; Close
+                    </button>
+                </div>
+            </div>
+
+
+            <!-- Ethical Hacking -->
+            <div class="col-6 d-none position-fixed bg-light" id="ethical-hacking-popup">
+                <div class="close w-25 ms-auto ">
+                    <img src="assets/imgMain/close.png" alt="close" class="w-25 ms-auto d-block close-button m-3">
+                </div>
+                <div class="popup-body text-center">
+                    <h1 class="courses-pop-up-heading">Ethical Hacking</h1>
+                    <h2>₹ 999</h2>
+
+                    <img src="assets/imgMain/ethical hakcking.jpg" alt="ethical-hacking" class="">
+                    <p class="w-75 mx-auto">Ethical hacking is a course that delves into the world of cybersecurity. It
+                        teaches individuals to identify vulnerabilities, test systems, and enhance security measures.
+                    </p>
+                    <button class="btn w-auto mx-auto py-3 px-5 rounded-2 fs-5 button-main close-button"> &times; Close
+                    </button>
+                </div>
+            </div>
+
+
+            <!-- IOS Development -->
+            <div class="col-6 d-none position-fixed bg-light" id="ios-dev-popup">
+                <div class="close w-25 ms-auto ">
+                    <img src="assets/imgMain/close.png" alt="close" class="w-25 ms-auto d-block close-button m-3">
+                </div>
+                <div class="popup-body text-center">
+                    <h1 class="courses-pop-up-heading">Ethical Hacking</h1>
+                    <h2>₹ 700</h2>
+
+                    <img src="assets/imgMain/ios-dev.png" alt="ios-dev" class="">
+                    <p class="w-75 mx-auto">iOS development is the art of creating, coding, and managing applications
+                        for Apple's iOS platform. It encompasses crucial elements such as user interface design,
+                        programming languages like Swift, app architecture, and app deployment.</p>
+                    <button class="btn w-auto mx-auto py-3 px-5 rounded-2 fs-5 button-main close-button"> &times; Close
+                    </button>
+                </div>
+            </div>
+
+
+            <!-- Python Developer -->
+            <div class="col-6 d-none position-fixed bg-light" id="python-dev-popup">
+                <div class="close w-25 ms-auto ">
+                    <img src="assets/imgMain/close.png" alt="close" class="w-25 ms-auto d-block close-button m-3">
+                </div>
+                <div class="popup-body text-center">
+                    <h1 class="courses-pop-up-heading">Python Development</h1>
+                    <h2>₹ 800</h2>
+
+                    <img src="assets/imgMain/python_logo.webp" alt="python-dev" class="">
+                    <p class="w-75 mx-auto">Python development is the art of crafting, coding, and maintaining
+                        applications using the Python programming language. It encompasses a wide range of applications
+                        such as web development, data analysis, artificial intelligence, and automation.</p>
+                    <button class="btn w-auto mx-auto py-3 px-5 rounded-2 fs-5 button-main close-button"> &times; Close
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="overlay" class="position-fixed top-0 start-0 end-0 bottom-0 overlay"></div>
+    </div>
+
+
+    <!-- Team -->
+    <div class="container" id="team">
+        <div class="row">
+            <h1 class="secondHeading text-center my-5">Our Team</h1>
+
+            <div class="col-12 col-lg-4 col-md-4 text-center ">
+                <img src="assets/imgMain/human 1.jpg" alt="human" class="border border-3 img-fluid">
+                <h1 class="my-2">Angelina Joy</h1>
+                <h2 class="text-secondary fs-5">Software Engineer</h2>
+            </div>
+
+            <div class="col-12 col-lg-4 col-md-4 text-center ">
+                <img src="assets/imgMain/human2.jpg" alt="human" class="border border-3 img-fluid">
+                <h1 class="my-2">Peter Parker</h1>
+                <h2 class="text-secondary fs-5">Ethical Hacker</h2>
+            </div>
+
+            <div class="col-12 col-lg-4 col-md-4 text-center ">
+                <img src="assets/imgMain/human 3.jpg" alt="human" class="border border-3 img-fluid">
+                <h1 class="my-2">Robert Downey</h1>
+                <h2 class="text-secondary fs-5">AI Model Trainer</h2>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Contact US -->
+    <div class="container-fluid" id="contact-us">
+        <div class="row">
+            <h1 class="secondHeading text-center  my-5">Contact Us</h1>
+
+
+            <div class="col-12 text-light mx-5 my-3">
+                <input type="text" name="name" id="" placeholder="Name:" autocomplete="off" class="w-75 p-3">
+            </div>
+
+            <div class="col-12 text-light mx-5 my-3">
+                <input type="email" name="email" id="" placeholder="Email:" autocomplete="off" class="w-75 p-3">
+            </div>
+
+            <div class="col-12 text-light mx-5 my-3">
+                <input type="tel" name="phonenumber" id="" placeholder="Phone Number:" autocomplete="off"
+                    class="w-75 p-3">
+            </div>
+
+            <div class="col-12 text-light mx-5 my-3">
+                <textarea placeholder="Query:" class="w-75 p-3"></textarea>
+            </div>
+
+            <button class="btn w-auto mx-auto py-3 px-5 rounded-5 fs-5 button-main submit-button">Submit </button>
+
+            <div class="col-12 submit-message text-center fs-4  d-none">
+                <p>We got your details and will reach to you as soon as possible.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="container-fluid" id="footer-div">
+        <div class="row">
+            <div class="col-12">
+                <div class=" text-center my-5">
+                    <a href="https://www.instagram.com/j.samyakk/" target="_blank">
+                        <img src="assets/imgMain/Social Media Icons/instagram .png" alt="" class="mx-5 col-2">
+                    </a>
+                    <a href="https://www.linkedin.com/in/samyak-jain-ab3470272/" target="_blank">
+                        <img src="assets/imgMain/Social Media Icons/linkedin.png" alt="" class="mx-5 col-2">
+                    </a>
+                    <a href="https://twitter.com/j_samyakk" target="_blank">
+                        <img src="assets/imgMain/Social Media Icons/twitter.png" alt="" class="mx-5 col-2">
+                    </a>
+                    <a href="https://wa.me/+918810558268" target="_blank">
+                        <img src="assets/imgMain/Social Media Icons/whatsapp.png" alt="" class="mx-5 col-2">
+                    </a>
+                    <a href="https://github.com/j-samyakk/" target="_blank">
+                        <img src="assets/imgMain/Social Media Icons/github.png" alt="" class="mx-5 col-2">
+                    </a>
+                </div>
+                <div class="footerText">
+                    <span class="d-block w-100 text-center text-dark">By:- Samyak Jain</span><br>
+                    <span class="d-block w-100 text-center text-dark">© 2023 Course Wave Company. All rights
+                        reserved.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+        </script>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

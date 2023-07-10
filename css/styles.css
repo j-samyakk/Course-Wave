@@ -1,0 +1,321 @@
+:root {
+  --pinkishPurple: #a539db;
+  --black: #000;
+  --white: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  transition: 0.3s all ease-in-out;
+}
+
+.navbar-brand h1 {
+  font-family: "Staatliches", cursive;
+  color: var(--pinkishPurple);
+}
+
+.nav-link {
+  transition: 0.3s all ease-in-out;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+  color: var(--pinkishPurple);
+  scale: 1.4;
+}
+
+.img-fluid {
+  width: 100px;
+}
+
+.sticky-top {
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.scrollColor {
+  color: var(--white);
+}
+
+.cart-button {
+  width: 50px;
+  cursor: pointer;
+}
+
+.cart-page{
+  background-color: #F5F5DC;
+  height: 99.99vh;
+  width: 50%;
+  z-index: 9999;
+  transition: 0.3s ease-in-out;
+  right: -100%;
+}
+
+.active{
+  right: 0;
+}
+
+.cart-close{
+  width: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cart-close:hover{
+  transform: scale(1.1);
+}
+
+.cart-button-small{
+  display: none;
+}
+
+#small-cart-button{
+  display: none;
+}
+
+/* Cart */
+.card-img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.card-body input{
+  outline: none;
+  border: none;
+}
+
+.plus, .minus, .number{
+  cursor: pointer;
+  user-select: none;
+}
+
+
+#header {
+  background-image: url(/assets/imgMain/home-bg.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+}
+
+#home-page .fw-bold {
+  font-size: 4.5em;
+  color: var(--pinkishPurple);
+}
+
+#home-page .fst-italic {
+  font-size: 2.5em;
+}
+
+.button-main {
+  background-color: var(--pinkishPurple);
+  margin: 2em;
+  transition: all 0.2s ease;
+  color: var(--white);
+}
+
+.button-main:hover {
+  scale: 1.1;
+  border: 2px solid var(--pinkishPurple);
+}
+
+/* Why US  */
+
+#why-us {
+  background-color: var(--white);
+}
+.secondHeading {
+  font-family: "Staatliches", cursive;
+  font-size: 4em;
+}
+
+/* Courses */
+
+#courses {
+  background-color: #f5f5dc;
+}
+
+.pop-up img {
+  object-fit: cover;
+  width: 100%;
+  mix-blend-mode: multiply;
+  height: 300px;
+}
+
+#courses .image-hover {
+  width: 100%;
+  height: 300px;
+  background-color: #a539dbb2;
+  position: absolute;
+  display: none;
+  top: 0;
+}
+
+#courses img:hover ~ .image-hover {
+  display: block;
+}
+
+#courses h3 {
+  color: var(--pinkishPurple);
+}
+
+#courses .pop-up {
+  all: unset;
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  display: inline-block;
+  line-height: inherit;
+  text-align: inherit;
+  text-decoration: none;
+  position: relative;
+}
+
+/* Courses Pop Up */
+
+#courses-pop-up .col-6 {
+  z-index: 999;
+  height: 90vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.close img:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.popup-body img {
+  object-fit: cover;
+  width: 80%;
+  mix-blend-mode: multiply;
+  height: 300px;
+  margin: 2em 0;
+  border-radius: 2em;
+}
+
+.courses-pop-up-heading {
+  font-size: 3em;
+  font-family: "Staatliches", cursive;
+}
+
+.overlay {
+  z-index: -99;
+  pointer-events: none;
+}
+
+.overlay-active {
+  z-index: 100;
+  background-color: hsla(0, 33%, 2%, 0.5);
+  pointer-events: all;
+}
+
+/* Team */
+#team img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#team h1 {
+  color: var(--pinkishPurple);
+}
+
+/* Contact us  */
+#contact-us {
+  background-color: #f5f5dc;
+}
+
+.submit-message {
+  color: var(--pinkishPurple);
+}
+
+/* Footer */
+
+.footerText span:nth-child(1) {
+  font-size: 50px;
+}
+
+.fontText spam:nth-child(2) {
+  font-size: 20px;
+}
+
+#footer-div img {
+  width: 75px;
+  transition: all 0.3s ease;
+  filter: grayscale(100);
+}
+
+#footer-div img:hover {
+  scale: 1.1;
+  filter: grayscale(0);
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .nav-link {
+    color: var(--white);
+  }
+
+  #home-page .fw-bold {
+    font-size: 3em;
+    color: var(--pinkishPurple);
+  }
+
+  #home-page .fst-italic {
+    font-size: 1.5em;
+  }
+
+  .popup-body img {
+    width: 70%;
+    height: 200px;
+  }
+
+  .courses-pop-up-heading {
+    font-size: 2em;
+  }
+
+  #courses-pop-up .col-6 {
+    width: 90%;
+    height: 120vh;
+    top: 0;
+    left: 0%;
+    transform: translate(0);
+  }
+
+  .cart-page{
+    width: 100%;
+  }
+
+  #big-cart-button{
+    display: none;
+  }
+
+  #small-cart-button{
+    display: block;
+  }
+}
