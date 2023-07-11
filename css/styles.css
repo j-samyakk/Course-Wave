@@ -57,7 +57,7 @@ body {
 
 .cart-page{
   background-color: #F5F5DC;
-  height: 99.99vh;
+  height: 100vh;
   width: 50%;
   z-index: 9999;
   transition: 0.3s ease-in-out;
@@ -318,5 +318,9 @@ body {
   #small-cart-button{
     display: block;
     right: 3%;
+  }
+
+  #footer-div img{
+    width: 50px;
   }
 }
